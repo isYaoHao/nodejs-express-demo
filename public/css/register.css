@@ -1,0 +1,77 @@
+
+.bodyr_right_login{
+    overflow: visible;
+}
+
+
+.login_body form {
+    margin-top: -10px;
+
+}
+
+.login_body form > input:nth-of-type(1) {
+    height: 40px;
+    width: 270px;
+}
+
+.login_body form p {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.login_body form > input:nth-of-type(2) {
+    height: 40px;
+    width: 270px;
+}
+
+.login_body form > input:nth-of-type(3) {
+    height: 40px;
+    width: 270px;
+}
+
+.login_body form p input :nth-of-type(4) {
+    height: 5px;
+    width: 5px;
+}
+
+.login_body form #btn {
+    height: 40px;
+    width: 270px;
+    border-style: none;
+    line-height: 40px;
+    color: #ECFAFB;
+    font-size: 16px;
+    text-align: center;
+    background: orange;
+}
+form{
+    position: relative;
+}
+form>p{
+    font-size: 12px;
+}
+form label{
+    width: 200px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: right;
+    left: 71px;
+    position: absolute;
+    color:red;
+    font-weight: bold;
+}
+#uname-error{
+
+
+    top: 11px;
+
+}
+#upwd-error{
+    top: 91px    ;
+}
+#rupwd-error{
+    top: 169px    ;
+}
+input.error { border: 1px solid red; }

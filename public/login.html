@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="js/lib/require.js" data-main="js/login"></script>
+    <link rel="stylesheet" href="css/jquery.idcode.css">
+</head>
+<body>
+<div class="headr">
+    <a href="#"><img src="https://safeimg.secoo.com/imagesNew/loginPic/logo.png"></a>
+    <ul>
+        <li><a href="index.html">寺库首页</a></li>
+        <li><a href="#">收藏首页</a></li>
+        <li><a href="#">寺库APP</a></li>
+    </ul>
+</div>
+<div class="bodyr">
+    <div class="bodyr_left"><img src="img/login1.png" height="660" width="792"/></div>
+    <div class="bodyr_right">
+        <div class="bodyr_right_login">
+            <div class="login_top">
+                <div class="login_top_left"><a href="javascript:">扫码登录</a></div>
+                <div class="login_top_right"><a href="javascript:">密码登录</a></div>
+            </div>
+
+            <!--tab栏切换功能;默认左边显示-->
+            <div class="login_body">
+
+                <div class="login_body_left">
+                    <img id="loginIdcode"
+                         src="https://user-center.secoo.com/service/appapi/qrcode/show?bid=1&size=6&t=1528019343230">
+                    <img id="loginIdcodeLeft" src="https://passport.secoo.com/login/ewmts.jpg">
+                    <p>打开寺库app扫一扫登录</p>
+                </div>
+                <form id="myform" class="login_body_right" style="display: none">
+                    <input type="text" placeholder=" 用户名" name="uname">
+                    <input type="password" placeholder=" 密码" name="upwd">
+                    <span>验证码</span>
+                    <p><input type="text" id="Txtidcode" class="txtVerification"><span id="idcode"></span></p>
+                    <button id="btn">立即登录</button>
+                </form>
+            </div>
+            <div class="login_foot">
+                <div>使用合作网站账号登录</div>
+                <div>
+                    <a href="#"><img src="https://passport.secoo.com/images/qq.jpg"><a href="#">QQ</a></a>
+                    <a href="#"><img src="https://passport.secoo.com/images/WeChat.png" height="20" width="20"><a
+                            href="#">微信</a></a>
+                </div>
+                <div>还不是寺库会员?<a href="register.html">免费注册</a><a href="#">忘记密码?</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_top" id="footList">
+        <ul>
+            <li><a href="#"> 新手指南</a></li>
+            <li><a href="#"> 付款方式</a></li>
+            <li><a href="#"> 物流配送</a></li>
+            <li><a href="#"> 售后服务</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"> 寺库微博</a></li>
+            <li><a href="#"> 友情链接</a></li>
+            <li><a href="#"> 奢侈品热词</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"> 加入寺库</a></li>
+            <li><a href="#"> 练习我们</a></li>
+            <li><a href="#"> 关于寺库</a></li>
+            <li><a href="#"> 帮助中心</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"> 寺库奢侈品养护</a></li>
+            <li><a href="#"> 寺库招商</a></li>
+            <li><a href="#"> 物流配送</a></li>
+            <li><a href="#"> 寺库加盟店</a></li>
+        </ul>
+    </div>
+    <div class="footer_body">
+        <span>统一社会信用代码：91110102689248179K</span>
+        <span><img src="https://mpic.secooimg.com/images/2016/06/21/pcfooterbatb.png">京公安备11010102001392</span>
+        <span> 京ICP证110119号 京ICP备09084709号-3</span>
+        <span> ISO9001中国质量管理体系认证</span>
+    </div>
+    <div class="footer_body">
+        <span>COPYRIGHT © 2010-2017 北京寺库商贸有限公司 版权所有</span>
+
+    </div>
+    <div class="footer_body">
+        <span><img src="https://pic12.secooimg.com/home/f_01.jpg"></span>
+        <span><img src="https://pic12.secooimg.com/home/f_04.jpg"></span>
+        <span><img src="https://pic12.secooimg.com/imagesNew/featuresPic/vv_qixi_0815/cnnic.png"></span>
+        <span><img src="https://pic12.secooimg.com/home/kexin.jpg"></span>
+        <span><img src="https://pic12.secooimg.com/home/f_03.jpg"></span>
+
+    </div>
+</div>
+
+</body>
+</html>

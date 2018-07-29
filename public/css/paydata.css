@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background: #323232;
+}
+
+.header_cld {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyer {
+    width: 100%;
+
+}
+
+.bodyer_cld {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bodyer_header {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.bodyer_header a {
+    font-size: 14px;
+    color: orange;
+}
+
+.bodyer_tab {
+    font-size: 14px;
+}
+
+.bodyer_tab tr {
+    text-align: center;
+}
+
+.bodyer_tab th:nth-of-type(1) {
+    width: 60px
+}
+
+.bodyer_tab th:nth-of-type(2) {
+    width: 350px
+}
+
+.bodyer_tab th:nth-of-type(3) {
+    width: 100px
+}
+
+.bodyer_tab th:nth-of-type(4) {
+    width: 100px
+}
+
+.bodyer_tab th:nth-of-type(5) {
+    width: 100px
+}
+
+.bodyer_tab th:nth-of-type(6) {
+    width: 100px
+}
+
+.bodyer_tab th:nth-of-type(7) {
+    width: 100px
+}
+
+.bodyer_tab tr td {
+    height: 50px;
+
+    margin: 30px 0;
+}
+
+.bodyer_tab tr img {
+    width: 70px;
+    height: 70px;
+    flex: 1;
+}
+
+.tdbox {
+    display: flex
+}
+
+.bodyer_tab tr span {
+    display: inline-block;
+    flex: 5;
+}
+
+.bodyer_tab tr td:nth-of-type(6) {
+    color: red;
+    font-weight: bold;
+}
+
+.bodyer_tab tr td input {
+    width: 30px;
+    text-align: center;
+    border-style: none;
+
+}
+
+.bodyer_tab tr td button {
+    border-style: none;
+    width: 20px;
+}
+
+.bodyer_delete {
+    margin-top: 30px;
+}
+
+.bodyer_delete input {
+    margin-left: 10px
+}
+
+.bodyer_delete a {
+    margin-left: 40px
+}
+
+.bodyer_foot {
+    margin-top: 60px;
+    text-align: right;
+    font-weight: bold;
+
+
+}
+
+#foottotal {
+    width: 110px;
+    color:red;
+    display: inline-block;
+    text-align: center;
+}
+.bodyer_foot button{
+    width: 150px;
+    height: 40px;
+    background: red;
+    color:white;
+    text-align: center;
+    line-height: 40px
+    ;font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+    margin-top: 40px;
+
+}
